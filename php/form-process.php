@@ -57,7 +57,7 @@ $Subject = "New Message Received | Stand With Refuguees";
 
 // prepare email body text
 $Body = "";
-$Body .= "First Name: ";
+$Body .= "Name: ";
 $Body .= $firstname;
 $Body .= "\n";
 $Body .= "Last Name: ";
