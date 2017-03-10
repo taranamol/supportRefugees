@@ -14,20 +14,18 @@ $("#contactForm").validator().on("submit", function (event) {
 function submitForm(){
     // Initiate Variables With Form Content
     var firstname = $("#firstname").val();
-    var lastname = $("#lastname").val();
     var email = $("#email").val();
     var title = $("#title").val();
     var company = $("#company").val();
     var interestedproject = $("#interestedproject").val();
     var idea = $("#idea").val();
-    console.log(lastname);
-
+    console.log(interestedproject);
 
 
     $.ajax({
         type: "POST",
         url: "php/form-process.php",
-        data: "firstname=" + firstname + "&email=" + email + "&title=" + title + "&company=" + company + "&idea=" + idea + "&interestedproject=" + interestedproject + "&lastname=" + lastname,
+        data: "firstname=" + firstname + "&email=" + email + "&title=" + title + "&company=" + company + "&idea=" + idea + "&interestedproject=" + interestedproject,
         success : function(text){
             if (text == "success"){
                 formSuccess();
@@ -52,9 +50,9 @@ function formError(){
 
 function submitMSG(valid, msg){
     if(valid){
-        var msgClasses = "h3 text-center tada animated text-success";
+        var msgClasses = "h4 text-center tada animated text-success";
     } else {
-        var msgClasses = "h3 text-center text-danger";
+        var msgClasses = "h4 text-center text-danger";
     }
     $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 }
