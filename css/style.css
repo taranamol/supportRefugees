@@ -1,0 +1,467 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.margin-15 {
+  margin: 15px 0px;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  background-color: #FFF;
+  background: url("../img/home/hero1.jpg");
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 80%; /* For at least Firefox */
+  /*min-height: 100%;*/
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
+ * Logo
+ */
+
+.logodiv {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  padding: 15px;
+  background-color: rgba(252, 73, 84, 0.9);
+}
+
+.logo {
+  /*margin-left: -50px;*/
+  width: 125px;
+  height: auto;
+}
+
+/*
+ * Header
+ */
+
+.masthead-brand {
+  margin-left: -295px;
+ }
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/*middle div in hero*/
+.cover-heading {
+  width: 562px;
+  height: 130px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+
+.cover-heading h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 20px;
+  color: #FFF;
+}
+
+/*
+ * Quick Actions
+ */
+
+.quick-action {
+  height: 93px;
+  text-align: center;
+  color: #FFF;
+  background-color: #ED3241;
+  padding-top:10px;
+}
+
+.give-money {
+  height: 93px;
+  text-align: center;
+  color: #FFF;
+  background-color: #3BBCCE;
+  padding-top:10px;
+}
+
+.give-time {
+  height: 93px;
+  text-align: center;
+  color: #FFF;
+  background-color: #FFBD00;
+  padding-top:10px;
+}
+
+.highlight-1 {
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background: url("../img/home/red-highlight.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.highlight-2 {
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background: url("../img/home/blue-highlight.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.highlight-3 {
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background: url("../img/home/yellow-highlight.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.highlight-1 p, .highlight-2 p, .highlight-3 p{
+  padding-top: 10px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.card {
+  height: 250px;
+  text-align: center;
+  color: #FFF;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  border: 2px solid #FFF;
+}
+
+.qa-1 {
+  background: url("../img/home/qa-1.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.qa-2 {
+  background: url("../img/home/qa-2.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+
+.qa-3 {background: url("../img/home/qa-3.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+
+.qa-4 {background: url("../img/home/qa-4.png"); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+
+.qa-5 {background: url("../img/home/qa-5.png"); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+
+.qa-6 {background: url("../img/home/qa-6.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+
+.qa-1:hover, .qa-2:hover, .qa-3:hover, .qa-4:hover, .qa-5:hover, .qa-6:hover {
+  background: none;
+  background-color: #FC4954;
+}
+
+.gm-1 {background: url("../img/home/gm-1.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+.gm-2 {background: url("../img/home/gm-2.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+.gm-3 {background: url("../img/home/gm-3.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+.gm-4 {background: url("../img/home/gm-4.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+
+.gm-1:hover, .gm-2:hover, .gm-3:hover, .gm-4:hover {
+  background: none;
+  background-color: #13CFE9;
+}
+
+.gt-1 {background: url("../img/home/gt-1.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+.gt-2 {background: url("../img/home/gt-2.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+.gt-3 {background: url("../img/home/gt-3.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+.gt-4 {background: url("../img/home/gt-4.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;}
+
+.gt-1:hover, .gt-2:hover, .gt-3:hover, .gt-4:hover {
+  background: none;
+  background-color: #FFBD00;
+}
+
+/*
+ * Special Projects
+ */
+
+.special-projects {
+  background-color: #FFF;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.special-projects p {
+  text-align: left; 
+}
+
+.icon-div {
+  padding: 30px 15px 30px 15px;
+}
+
+
+/*
+ * Contact Us
+ */
+
+.contact-us{
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.contact-us p {
+  text-align: left; 
+}
+
+/*
+ * Form
+ */
+
+.dropdown-menu {
+  position: relative;
+}
+
+.open > .dropdown-menu {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+label {
+  font-weight: normal;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+.form-control {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.btn-default {
+  width: 100%;
+  background-color: #ED3241;
+  color: #FFF;
+  font-weight: bold;
+  height: 50px;
+  font-size: 20px;
+  border: 2px solid #ED3241;
+}
+
+.btn-default:hover {
+  border: #ED3241 2px solid;
+  color: #ED3241;
+  background-color: #FFF;
+}
+
+.btn-white {
+  background-color: #DDD;
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 50px
+}
+
+.btn-white {
+  text-align: right;
+}
+
+.btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus {
+  border: #ED3241 2px solid;
+}
+
+.help-block {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.red {
+  color: red;
+  padding-left: 10px;
+}
+
+/*p.field-wrapper {
+    display: block;
+    width: 100%;
+}
+p.field-wrapper::before { 
+    content: "\00a0\00a0 "; 
+     keeps spacing consistent 
+    float: left;
+}
+p.field-wrapper input {
+    float: left;
+}
+p.required-field::before { 
+    content: "*";
+    color: red;
+}*/
+
+.interestedprojectdiv {
+
+}
+
+.text-success {}
+
+#msgSubmit {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:#555;
+  color: #FFF;
+  font-size: 14px;
+}
+.footer a {
+  color: #FFF;
+  font-weight: 500;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    top: 0;
+  }
+  .mastfoot {
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (max-width: 768px) {
+  .cover-heading {
+    width: 300px;
+    height: 130px;
+  }
+
+  .cover-heading h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 480px) {
+  .qa-1, .qa-2, .qa-3, .qa-4, .qa-5, .qa-6, .gm-1, .gm-2, .gm-3, .gm-4, .gt-1, .gt-2, .gt-3, .gt-4 {
+    background-size: auto;
+  }
+
+}
