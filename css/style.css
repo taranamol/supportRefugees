@@ -36,6 +36,20 @@ h2 {
   margin-left: auto;
 }
 
+.jumbotron {
+  background: url("../img/home/hero1.jpg");
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 80%; /* For at least Firefox */
+  margin-bottom: 0px;
+}
+
+.jumbotrontext {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 200px;
+  color: #FFF;
+}
+
 /*
  * Logo
  */
