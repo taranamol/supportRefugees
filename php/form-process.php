@@ -52,7 +52,7 @@ if (empty($_POST["idea"])) {
 }
 
 
-$EmailTo = "3queensdesign@gmail.com";
+$EmailTo = "Erin@unrefugees.org";
 $Subject = "New Message Received | Stand With Refuguees";
 
 // prepare email body text

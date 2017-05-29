@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
 }
+
 body {
   text-align: center;
   font-family: Roboto, sans-serif;
@@ -17,14 +18,30 @@ h2 {
   margin: 15px 0px;
 }
 
+.index-banner{
+    background: url('../img/home/header.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 580px;
+    position: relative;
+}
+
+.photos {
+  margin-top: 100px;
+}
+
+.photos .special-projects h2 {
+  text-align: left;
+}
+
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
+/*.site-wrapper {
   display: table;
   background-color: #FFF;
   background: url("../img/home/hero1.jpg");
   background-repeat: repeat-y;
   width: 100%;
-  height: 80%; /* For at least Firefox */
+  height: 80%;*/ /* For at least Firefox */
   /*min-height: 100%;*/
 }
 .site-wrapper-inner {
@@ -45,10 +62,15 @@ h2 {
 }
 
 .jumbotrontext {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   margin-top: 200px;
   color: #FFF;
 }
+
+/*.bg-color{
+  background-color: rgba(250, 250, 250, 0.6);
+  min-height: 580px;
+}*/
 
 /*
  * Logo
@@ -60,6 +82,7 @@ h2 {
   left: 30px;
   padding: 15px;
   background-color: rgba(252, 73, 84, 0.9);
+  z-index: 1;
 }
 
 .logo {
@@ -177,6 +200,93 @@ h2 {
   background-repeat: no-repeat;
   z-index: -1;
 }
+.highlight-hover{ 
+  display: none;
+}
+
+/*qa1*/
+.qa-1:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.qa-1:hover .highlight-1, .qa-1:hover .highlight-1-subtitle{
+  display : none;
+}
+
+/*qa2*/
+.qa-2:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.qa-2:hover .highlight-1, .qa-2:hover .highlight-1-subtitle{
+  display : none;
+}
+
+/*qa3*/
+.qa-3:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.qa-3:hover .highlight-1, .qa-3:hover .highlight-1-subtitle{
+  display : none;
+}
+
+/*qa4*/
+.qa-4:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.qa-4:hover .highlight-1, .qa-4:hover .highlight-1-subtitle{
+  display : none;
+}
+
+/*qa5*/
+.qa-5:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.qa-5:hover .highlight-1, .qa-5:hover .highlight-1-subtitle{
+  display : none;
+}
+
+/*qa6*/
+.qa-6:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.qa-6:hover .highlight-1, .qa-6:hover .highlight-1-subtitle{
+  display : none;
+}
 
 .highlight-2 {
   margin-top: 120px;
@@ -188,6 +298,62 @@ h2 {
   z-index: -1;
 }
 
+/*gm1*/
+.gm-1:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gm-1:hover .highlight-2, .gm-1:hover .highlight-2-subtitle{
+  display : none;
+}
+
+/*gm2*/
+.gm-2:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gm-2:hover .highlight-2, .gm-2:hover .highlight-2-subtitle{
+  display : none;
+}
+
+/*gm3*/
+.gm-3:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gm-3:hover .highlight-2, .gm-3:hover .highlight-2-subtitle{
+  display : none;
+}
+
+/*gm4*/
+.gm-4:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gm-4:hover .highlight-2, .gm-4:hover .highlight-2-subtitle{
+  display : none;
+}
+
 .highlight-3 {
   margin-top: 120px;
   height: 50px;
@@ -196,6 +362,62 @@ h2 {
   background-position: center center;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+/*gt1*/
+.gt-1:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gt-1:hover .highlight-3, .gt-1:hover .highlight-3-subtitle{
+  display : none;
+}
+
+/*gt2*/
+.gt-2:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gt-2:hover .highlight-3, .gt-2:hover .highlight-3-subtitle{
+  display : none;
+}
+
+/*gt3*/
+.gt-3:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gt-3:hover .highlight-3, .gt-3:hover .highlight-3-subtitle{
+  display : none;
+}
+
+/*gt4*/
+.gt-4:hover .highlight-hover{
+  display : block;
+  margin-top: 120px;
+  height: 50px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gt-4:hover .highlight-3, .gt-4:hover .highlight-3-subtitle{
+  display : none;
 }
 
 .highlight-1 p, .highlight-2 p, .highlight-3 p{
@@ -269,7 +491,7 @@ h2 {
 .gt-2 {background: url("../img/home/gt-2.png");
   background-size: 100% auto;
   background-repeat: no-repeat;}
-.gt-3 {background: url("../img/home/gt-3.png");
+.gt-3 {background: url("../img/home/gt-3.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;}
 .gt-4 {background: url("../img/home/gt-4.png");
@@ -422,7 +644,7 @@ p.required-field::before {
 .footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color:#555;
+  background-color:#333;
   color: #FFF;
   font-size: 14px;
 }
